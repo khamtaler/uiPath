@@ -495,7 +495,7 @@
           }
         }
       },
-      "UiPath.OCR.Contracts/2.6.0-preview": {
+      "UiPath.OCR.Contracts/2.6.0": {
         "type": "package",
         "compile": {
           "lib/net461/_._": {}
@@ -613,7 +613,7 @@
           }
         }
       },
-      "UiPath.Telemetry.Client/1.1.49": {
+      "UiPath.Telemetry.Client/1.1.51": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "11.0.1",
@@ -626,7 +626,7 @@
           "lib/net461/TelemetryClient.dll": {}
         }
       },
-      "UiPath.UIAutomation.Activities/20.4.0-preview": {
+      "UiPath.UIAutomation.Activities/20.4.1": {
         "type": "package",
         "dependencies": {
           "AvalonEdit": "5.0.3",
@@ -636,10 +636,10 @@
           "System.IO.Abstractions": "3.0.10",
           "System.ValueTuple": "4.5.0",
           "UiPath": "[20.4.7422.14731]",
-          "UiPath.OCR.Contracts": "2.6.0-preview",
+          "UiPath.OCR.Contracts": "2.6.0",
           "UiPath.Platform": "20.4.0",
-          "UiPath.Telemetry.Client": "1.1.49",
-          "UiPath.Vision": "2.0.3-preview"
+          "UiPath.Telemetry.Client": "1.1.51",
+          "UiPath.Vision": "2.0.3"
         },
         "compile": {
           "lib/net461/_._": {}
@@ -864,10 +864,10 @@
           }
         }
       },
-      "UiPath.Vision/2.0.3-preview": {
+      "UiPath.Vision/2.0.3": {
         "type": "package",
         "dependencies": {
-          "UiPath.OCR.Contracts": "2.6.0-preview"
+          "UiPath.OCR.Contracts": "2.6.0"
         },
         "compile": {
           "lib/net461/_._": {}
@@ -1413,15 +1413,15 @@
         "uipath.mail.activities.nuspec"
       ]
     },
-    "UiPath.OCR.Contracts/2.6.0-preview": {
-      "sha512": "mHryev1jQjbu2o5WYgM/b8ZmP1mqcW6wiwQYmwp9K/HH9/FJb0rViCFdOgruUAETjWsCclS8H5DAGq1tfWzvbw==",
+    "UiPath.OCR.Contracts/2.6.0": {
+      "sha512": "0Tv26CBTQin1onkfqBH5+U+7ZEzGIakBr58bf3S+wXKbwQidTLEIR/f/jEGd5gxUxMXsq8k8jzJJo0swb0x0MA==",
       "type": "package",
-      "path": "uipath.ocr.contracts/2.6.0-preview",
+      "path": "uipath.ocr.contracts/2.6.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net461/UiPath.OCR.Contracts.dll",
-        "uipath.ocr.contracts.2.6.0-preview.nupkg.sha512",
+        "uipath.ocr.contracts.2.6.0.nupkg.sha512",
         "uipath.ocr.contracts.nuspec"
       ]
     },
@@ -1483,10 +1483,10 @@
         "uipath.system.activities.nuspec"
       ]
     },
-    "UiPath.Telemetry.Client/1.1.49": {
-      "sha512": "ECES0SZqrxzZ9ySmL8UXE1jN/fqd9Uqfx/xsLMl3ehU4TbByWO2onbjm88U600iI6bqDYhMK/VcSKLUqNhqjYA==",
+    "UiPath.Telemetry.Client/1.1.51": {
+      "sha512": "DGvVjdTPO81fqeWgQS9SwHGNQHuXa1yuxWkQ+HxwUZZNPKwzzz3UPLxdIHdddl1bbySRDN79+x6Z87Hwmfxc4g==",
       "type": "package",
-      "path": "uipath.telemetry.client/1.1.49",
+      "path": "uipath.telemetry.client/1.1.51",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1494,17 +1494,19 @@
         "lib/net461/TelemetryClient.pdb",
         "lib/netstandard2.0/TelemetryClient.dll",
         "lib/netstandard2.0/TelemetryClient.pdb",
-        "uipath.telemetry.client.1.1.49.nupkg.sha512",
+        "uipath.telemetry.client.1.1.51.nupkg.sha512",
         "uipath.telemetry.client.nuspec"
       ]
     },
-    "UiPath.UIAutomation.Activities/20.4.0-preview": {
-      "sha512": "yRSe53hMDB7f2d4QBGrItTtJe/axhleMSRaXum4e397Q/wXiS7cGzsecA/w9VM6PfUOLfqlHjNfn4hRS50psmA==",
+    "UiPath.UIAutomation.Activities/20.4.1": {
+      "sha512": "GZrAD0g/APqrYsuseW1XKCKqWKZLHrDS82dmai3wgq5PdeCECN0PWGX/wVGegOQEsck+U/n3eLjDlpaf4qcWtg==",
       "type": "package",
-      "path": "uipath.uiautomation.activities/20.4.0-preview",
+      "path": "uipath.uiautomation.activities/20.4.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "AllDependencies.json",
+        "UiAutomationActivities.nuget.props",
         "build/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
         "build/ActiproSoftware.Docking.Wpf.dll",
         "build/ActiproSoftware.Editors.Wpf.dll",
@@ -1641,14 +1643,15 @@
         "lib/net461/zh-CN/UiPath.UIAutomation.Activities.Design.resources.dll",
         "lib/net461/zh-CN/UiPath.UiAutomation.Activities.resources.dll",
         "lib/net461/zh-CN/UiPath.Wizards.resources.dll",
-        "uipath.uiautomation.activities.20.4.0-preview.nupkg.sha512",
+        "nuget.cache",
+        "uipath.uiautomation.activities.20.4.1.nupkg.sha512",
         "uipath.uiautomation.activities.nuspec"
       ]
     },
-    "UiPath.Vision/2.0.3-preview": {
-      "sha512": "IycJEXztp1VC7GpPSoRf3CUWE3gWL5QBnTCLZ0rb1amQywWtzoNFMNg032EDxDL3fQ6o0EEgsqLsdHZkEdbNeQ==",
+    "UiPath.Vision/2.0.3": {
+      "sha512": "tl1L/gV0kAAal7n+I/3XWcG3yRQES98J/lJ2u2Vanq9h1eqG0BoFw2MMCqTwRzO8n/0CVCbLLjn5V/OYfaQv7A==",
       "type": "package",
-      "path": "uipath.vision/2.0.3-preview",
+      "path": "uipath.vision/2.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1708,7 +1711,7 @@
         "lib/net461/UiPath.Vision.MicrosoftCloud.dll",
         "lib/net461/UiPath.Vision.Tesseract.dll",
         "lib/net461/UiPath.Vision.dll",
-        "uipath.vision.2.0.3-preview.nupkg.sha512",
+        "uipath.vision.2.0.3.nupkg.sha512",
         "uipath.vision.nuspec"
       ]
     }
@@ -1719,19 +1722,19 @@
       "UiPath.Excel.Activities >= 2.8.3-preview <= 2.8.3-preview",
       "UiPath.Mail.Activities >= 1.8.3-preview <= 1.8.3-preview",
       "UiPath.System.Activities >= 20.4.0 <= 20.4.0",
-      "UiPath.UIAutomation.Activities >= 20.4.0-preview <= 20.4.0-preview"
+      "UiPath.UIAutomation.Activities >= 20.4.1 <= 20.4.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pękuś\\.nuget\\packages\\": {}
+    "C:\\Users\\KS\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "GetTimeInBucharest",
       "projectName": "GetTimeInBucharest",
-      "projectPath": "C:\\Users\\Pękuś\\Documents\\uiPath\\GetTimeInBucharest\\.local",
-      "packagesPath": "C:\\Users\\Pękuś\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pękuś\\Documents\\uiPath\\GetTimeInBucharest\\.local"
+      "projectPath": "C:\\Users\\KS\\Documents\\uiPath\\GetTimeInBucharest\\.local",
+      "packagesPath": "C:\\Users\\KS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\KS\\Documents\\uiPath\\GetTimeInBucharest\\.local"
     },
     "frameworks": {
       "net461": {
@@ -1754,19 +1757,10 @@
           "UiPath.UIAutomation.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[20.4.0-preview, 20.4.0-preview]"
+            "version": "[20.4.1, 20.4.1]"
           }
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Extended.Wpf.Toolkit 2.8' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
-      "libraryId": "Extended.Wpf.Toolkit"
-    }
-  ]
+  }
 }
